@@ -4,9 +4,9 @@ const CustomButton = ({ id = 'custom_btn', text = 'Button', rigthIcon, leftIcon,
     return (
         <button
             id={id}
-            className={`px-5 py-3 group flex justify-center items-center gap-2 relative cursor-pointer rounded-full overflow-hidden z-10 bg-violet-100 text-black ${containerClass && containerClass} `}
+            className={`px-[1rem] py-[.5rem] group flex justify-center items-center gap-2 relative cursor-pointer rounded-full overflow-hidden z-10 bg-violet-100 text-gray-800 ${containerClass && containerClass} `}
         >
-            <div className="rightIcon text-3xl">
+            <div className="rightIcon text-2xl">
                 {rigthIcon && rigthIcon}
             </div>
             {text}
