@@ -139,3 +139,7 @@ body {
   overflow-x: hidden;
   font-family: "general", "sans-sirf";
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

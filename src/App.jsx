@@ -2,6 +2,10 @@ import React from 'react'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import Navbar from './components/Navbar'
+import FeatureSection from './components/FeatureSection'
+import StorySection from './components/StorySection'
+import CallToAction from './components/CallToAction'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -9,6 +13,10 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <FeatureSection />
+      <StorySection />
+      <CallToAction />
+      <Footer />
     </main >
   )
 }
