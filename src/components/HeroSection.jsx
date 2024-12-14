@@ -52,9 +52,9 @@ const HeroSection = () => {
                 gsap.from(
                     '#current-video', {
                     transformOrigin: 'center center',
-                    scale: 0.3,
-                    borderRadius: '100dvh',
-                    duration: 1.5,
+                    scale: 10,
+                    borderRadius: '10dvh',
+                    duration: 2,
                     ease: 'power1.inOut',
                 })
             }
@@ -64,7 +64,7 @@ const HeroSection = () => {
     useGSAP(
         gsap.set('#video-frame', {
             clipPath: 'polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%)',
-            borderRadius: '0 0 40% 10%',
+            borderRadius: '0 0 2% 3%',
         }),
 
         gsap.from('#video-frame', {
@@ -81,7 +81,7 @@ const HeroSection = () => {
     )
 
     return (
-        <section className='relative h-dvh w-screen overflow-x-hidden'>
+        <section className='relative h-screen w-screen overflow-x-hidden'>
             {
                 isLoading && (
                     <div className=" absolute z-[999] flex justify-center items-center h-[100dvh] w-screen bg-violet-200 overflow-hidden">
