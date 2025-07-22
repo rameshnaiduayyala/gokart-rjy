@@ -1,4 +1,3 @@
-import React from 'react'
 import AnimatedTitle from './Utility/AnimatedTitle'
 
 const StorySection = () => {
@@ -6,7 +5,7 @@ const StorySection = () => {
         <section className='min-h-dvh w-screen bg-black text-blue-50' id='story'>
             <div className="flex size-full flex-col items-center py-10 pb-[5rem]">
                 <p className="font-general m-auto text-sm uppercase md:text-[10px]">
-                    The multiverse Ip World
+                    The multiverse Racing World
                 </p>
                 <div className="relative sixe-full">
                     <AnimatedTitle title='The Story of a Hidden realm' />

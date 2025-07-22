@@ -51,7 +51,7 @@ const FeatureSection = () => {
         <section className=' bg-black pb-[15rem]'>
             <div className="container mx-auto px-3 md:px-10">
                 <div className="px-5 py-32">
-                    <p className='font-circular-web text-lg text-blue-50 opacity-50'>Dive into the 'Game of Games' Universe Immerse yourself in a rich and ever-expanding ecosystem where a vibrant array of products <b>converge into an interconnected universe Radiant </b></p>
+                    <p className='font-circular-web text-lg text-blue-50 opacity-50'>Dive into the `Go Kart` Universe Immerse yourself in a rich and ever-expanding ecosystem where a vibrant array of products <b>converge into an interconnected universe Radiant </b></p>
                 </div>
                 <div className="relative mb-7 border-hsla h-96  md:h-[65vh] overflow-hidden rounded-md">
                     <BentoCard src={'/videos/feature-1.mp4'} title={'Radint'} description={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iure magnam maiores itaque, eius impedit totam labore sint accusamus ratione non eligendi, tempore ullam nihil officiis amet corrupti sapiente unde.'} />

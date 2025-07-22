@@ -1,4 +1,3 @@
-import React from 'react'
 
 const CustomButton = ({ id = 'custom_btn', text = 'Button', rigthIcon, leftIcon, containerClass, ...props }) => {
     return (
